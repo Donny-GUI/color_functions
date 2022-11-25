@@ -120,7 +120,7 @@ class Text:
             
 def example():
     text = Text()
-    text.highlightWord(word="hello", paragraph="why hello there how are you. it is a hello day", color='yellow')
+    text.highlightWord(word="hello", paragraph="why hello there how are you. it is a hello, day", color='yellow')
     text.colorUpperText(color="green", text="ABC asdf |||[]")
     text.colorLowerText(color="green", text="ABC asdf |||[]")
 
